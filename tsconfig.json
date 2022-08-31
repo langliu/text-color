@@ -7,9 +7,29 @@
       "DOM.Iterable"
     ],
     "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
     "strict": true,
+    "declaration": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
     "types": [
-      "ts-jest"
-    ]
-  }
+      "ts-jest",
+      "jest"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@lib/*": [
+        "./src/lib/*"
+      ]
+    }
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
