@@ -1,20 +1,22 @@
 {
-  "name": "text-color",
+  "name": "@allen_l_liu/text-color",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "text to color",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/langliu/text-color.git"
   },
   "keywords": [
-    "color"
+    "color",
+    "text"
   ],
   "author": {
     "name": "langliu",
     "email": "809721414@qq.com",
     "url": "https://langliu.github.io"
   },
+  "private": false,
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/langliu/text-color/issues"
