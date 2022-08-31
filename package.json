@@ -1,0 +1,38 @@
+{
+  "name": "text-color",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langliu/text-color.git"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": {
+    "name": "langliu",
+    "email": "809721414@qq.com",
+    "url": "https://langliu.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/langliu/text-color/issues"
+  },
+  "homepage": "https://github.com/langliu/text-color#readme",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.8",
+    "typescript": "^4.8.2"
+  }
+}

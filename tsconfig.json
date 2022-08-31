@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "types": [
+      "ts-jest"
+    ]
+  }
+}
